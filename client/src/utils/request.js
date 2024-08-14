@@ -1,7 +1,7 @@
 import { BASE_URL } from '../constants/url';
 
-export const request =  (url, method, data) => {
-	return  fetch(BASE_URL + url, {
+export const request =  async (url, method, data) => {
+	return  await fetch(BASE_URL + url, {
 		method: method || 'GET',
 		headers: {
 			'Content-type': 'application/json; charset=UTF-8',
