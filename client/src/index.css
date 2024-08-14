@@ -1,0 +1,24 @@
+@import url('./fonts/font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background: #405060;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
